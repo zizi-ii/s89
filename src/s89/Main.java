@@ -7,5 +7,7 @@ public class Main {
 		System.out.println(Hello.sum(10));
 		System.out.println(Hello.sum(100));
 		System.out.println(Hello.sum(1000));
+		System.out.println(Sansu.max(new int[] {8, 5, 6, 9, 4}));
+		System.out.println(Sansu.max(new int[] {-2, 5, 6, 9, -6}));
 	}
 }
