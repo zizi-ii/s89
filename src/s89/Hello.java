@@ -1,6 +1,6 @@
 public class Hello {
-	public static void main(String[] args) {
-		// 자신의 학번과 이름을 출력하라
-		System.out.println("hello");
-	}
+	
+	public static int sum(int n) {
+    	return (n == 1) ? 1 : n + sum(n - 1);
+    }
 }

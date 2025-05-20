@@ -6,5 +6,6 @@ public class Main {
 		System.out.println("1234567 이지우");
 		System.out.println(Hello.sum(10));
 		System.out.println(Hello.sum(100));
+		System.out.println(Hello.sum(1000));
 	}
 }
